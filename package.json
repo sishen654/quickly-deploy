@@ -33,7 +33,8 @@
     "coverage": "vitest run --coverage",
     "p": "standard-version",
     "c": " git push --tags",
-    "push": "git checkout main & git push gitee-quickly-deploy main & git push github-quickly-deploy main"
+    "push": "git checkout main & git push gitee-quickly-deploy main & git push github-quickly-deploy main",
+    "tags": "git checkout main & git push gitee-quickly-deploy --tags main & git push github-quickly-deploy --tags main"
   },
   "files": [
     "dist/"
