@@ -1,14 +1,16 @@
 # quickly-deploy
 
-English | [简体中文](./README-zh.md)
+[English](./README.md) | 简体中文
 
-## ✨ Introduce
-This is a package that can help you quickly deploy your static web, use the Koa framework, you can also add more extension in the app.
+## ✨ 介绍
+
+这是一个可以帮助你快速部署你的静态网站的包，使用Koa框架，你也可以在应用中添加更多的扩展。
 
 
 
-## 📦 Install
-```sh
+## 📦 下载
+
+```bash
 npm i quickly-deploy
 yarn add quickly-deploy
 pnpm add quickly-deploy
@@ -16,12 +18,12 @@ pnpm add quickly-deploy
 
 
 
-## 🌍 TS support
+## 🌍 TS支持
 
--   **filePath**：static folder path, can add multiple
--   **envPath**：env file path
--   **pushArr**: add pre-middleware
--   **unshiftArr**: add post middleware
+-   **filePath**：静态文件夹路径，可以添加多个
+-   **envPath**：env 文件路径
+-   **pushArr**: 添加前置中间件
+-   **unshiftArr**: 添加后置中间件
 
 ```ts
 import * as http from 'http';
@@ -36,9 +38,11 @@ export { startServer as default };
 
 
 
-## 🔨 Usage
+## 🔨 使用
 
-### deploy web
+### 部署网站
+
+### 
 
 ```ts
 import startServer from "quickly-deploy"
@@ -56,4 +60,6 @@ app.start()		// start server
 # server.env
 PORT=3997
 ```
+
+
 
