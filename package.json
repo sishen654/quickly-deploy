@@ -1,6 +1,6 @@
 {
   "name": "quickly-deploy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "sishen",
   "license": "MIT",
   "description": "Use Koa to quickly deploy static projects, support instance extensions such as adding routes or middleware, etc.",
