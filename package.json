@@ -13,9 +13,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "",
-  "homepage": "",
-  "bugs": "",
+  "repository": "https://github.com/sishen654/quickly-deploy.git",
+  "homepage": "https://github.com/sishen654/quickly-deploy.git",
+  "bugs": "https://github.com/sishen654/quickly-deploy/issues",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -36,7 +36,6 @@
     "push": "git checkout main & git push gitee-quickly-deploy main & git push github-quickly-deploy main"
   },
   "files": [
-    "index.js",
     "dist/"
   ],
   "devDependencies": {
